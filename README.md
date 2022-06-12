@@ -1,71 +1,82 @@
-# Getting Started with Create React App
+# Horas Complementares 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Sobre o projeto
 
-## Available Scripts
+Horas Complementares é uma aplicação full stack web construída para a matéria de Tópicos Especiais em Tecnologia do curso de Análise e Desenvolvimento de Sistemas.
 
-In the project directory, you can run:
+A aplicação consiste em um sistema de registro de Horas Complementares para instrituições de ensino superior UNASP, dando suporte a criação de usuários, login e tela de perfil de usuário, inserção de comprovantes de horas complementares e chat para notificação e comentário sobre os comprovantes.
 
-### `npm start`
+## Layout
+![Web 1](https://github.com/UNASP-Horas-Complementares/Assets/blob/master/indexscreen.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Web 2](https://github.com/UNASP-Horas-Complementares/Assets/blob/master/profilescreen.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Web 3](https://github.com/UNASP-Horas-Complementares/Assets/blob/master/loginscreen.png)
 
-### `npm test`
+![Web 4](https://github.com/UNASP-Horas-Complementares/Assets/blob/master/registerscreen.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Web 5](https://github.com/UNASP-Horas-Complementares/Assets/blob/master/editprofilescreen.png)
 
-### `npm run build`
+![Web 6](https://github.com/UNASP-Horas-Complementares/Assets/blob/master/chatsscreen.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Modelo conceitual
+![Modelo Conceitual](https://github.com/UNASP-Horas-Complementares/Back-End/blob/main/modelo%20Banco/modelo_conceitual.jpeg)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Tecnologias utilizadas
+## Back end
+- JavaScript
+- SQL
+## Front end
+- HTML / CSS / JS
+- ReactJS
+## Implantação em produção
+- Back end: Docker
+- Front end web: Node.JS
+- Banco de dados: MySql
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Como executar o projeto
 
-### `npm run eject`
+## Back end
+Pré-requisitos: Docker
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+# clonar repositório
+git clone https://github.com/UNASP-Horas-Complementares/Back-End
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# entrar na pasta do projeto back end
+cd Back-End-main
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# executar o projeto
+docker-compose up -d
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Front end web
+Pré-requisitos: npm / node-modules
 
-## Learn More
+```bash
+# clonar repositório
+git clone https://github.com/UNASP-Horas-Complementares/Front-End
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# entrar na pasta do projeto front end web
+cd Front-End-main
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# instalar dependências
+npm install node-modules
 
-### Code Splitting
+# executar o projeto
+npm start 
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# Autores
 
-### Analyzing the Bundle Size
+John Pablo da Silva Gomes <br>
+https://www.linkedin.com/in/john-gomes-83735a18b/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Carlos Eduardo de Camargo <br>
+https://www.linkedin.com/in/carlos-eduardo-ads/
 
-### Making a Progressive Web App
+Gabriel Alves da Silva <br>
+https://www.linkedin.com/in/gabriel-silva-8830051b1/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-"# Front-End" 
+Kaique Mendes <br>
+https://www.linkedin.com/in/kaikmendez/
